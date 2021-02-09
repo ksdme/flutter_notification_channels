@@ -1,6 +1,6 @@
 name: flutter_notification_channels
 description: A flutter plugin that allows you to manage Android Notification Channels.
-version: 0.1.0
+version: 0.1.0+1
 author: Kilari Teja (https://github.com/ksdme)
 homepage: https://github.com/ksdme/flutter_notification_channels
 
