@@ -99,7 +99,7 @@ class FlutterNotificationChannelsPlugin: FlutterPlugin, MethodCallHandler {
     if (uri != null) {
       val attributes = AudioAttributes.Builder()
               .setUsage(AudioAttributes.USAGE_NOTIFICATION)
-              .setContentType(AudioAttributes.CONTENT_TYPE_UNKNOWN)
+              .setContentType(AudioAttributes.CONTENT_TYPE_SONIFICATION)
               .build()
 
       notificationChannel.setSound(uri, attributes)
